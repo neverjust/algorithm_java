@@ -1,6 +1,14 @@
 # SpringBoot注解
 
+## @**ResposeBody**和@RestController
 
+返回的是Restful内容
+
+每个接口前加上@ResposeBody = 将类前的@Controller改成@RestController
+
+## @ComponentScan
+
+扫描其他的包 使用其他包下的类
 
 
 
