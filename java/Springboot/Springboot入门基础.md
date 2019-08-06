@@ -50,3 +50,9 @@ public class helloController {
             <artifactId>spring-boot-devtools</artifactId>
 </dependency>
 ```
+
+### 访问静态资源路径
+
+calsspath里面的/static /public或者/META-INF/resources
+
+或者在配置中aplication.properties中配置spring.resources.static-locations=classpath:/static
