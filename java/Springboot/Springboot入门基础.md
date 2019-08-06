@@ -36,3 +36,17 @@ public class helloController {
 }
 ```
 
+## 开发模式的两个依赖
+
+开发模式的两个依赖 修改之后 自动重启
+
+```xml
+<dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>springloaded</artifactId>
+</dependency>
+<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+</dependency>
+```
