@@ -26,6 +26,7 @@ func bytesToString(b []byte) string {
 	return *(*string)(unsafe.Pointer(&b))
 }
 
+
 /*
 	字符串拼接
 	Benchmark_bytesBuffer    805302      435 ns/op    3456 B/op     1 allocs/op
@@ -63,6 +64,7 @@ func stringsJoin(arr []string) string {
 	return strings.Join(arr, "")
 }
 
+
 /*
 	map和slice
 	1. 尽量提前预估容量，减少内存分配次数
@@ -91,3 +93,5 @@ func noCap() {
 		arr = append(arr, i)
 	}
 }
+
+
